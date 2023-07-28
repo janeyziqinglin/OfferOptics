@@ -9,9 +9,9 @@ Introducing __George P. Burdell__, a trailblazing and enterprising graduate who 
 
 ## Key Features
 
-### Main Menu
+### Main Menu 
 
-Upon launching OfferOptics, George is welcomed by a versatile main menu. It offers four primary options:
+[Upon launching OfferOptics, George is welcomed by a versatile main menu. It offers four primary options](#main-menu):
 
 - Enter/Edit Current Job Details
 - Enter Job Offers
@@ -97,6 +97,7 @@ To get started with OfferOptics, follow below instructions in User Manual.
 
 This user manual provides a detailed guide on how to use the Job Offer Comparison App.
 
+<a name="main-menu"></a>
 ## 1. Main Menu
 
 Upon launching the app, users are presented with the main menu. The main menu provides options for various functionalities:
