@@ -6,9 +6,10 @@ This user manual provides a detailed guide on how to use the Job Offer Compariso
 
 Upon launching the app, users are presented with the main menu. The main menu provides options for various functionalities:
 
-![Main Menu Default](../images/MainMenu_default.png)
-
-![Main Menu](../images/MainMenu.png)
+<div style="display: flex;">
+    <img src="/images/MainMenu_default.png" alt="Main Menu Default" style="width: 300px;"/>
+    <img src="/images/MainMenu.png" alt="Main Menu" style="width: 290px;"/>
+</div>
 
 ### 1.1 Description of Each Field
 
@@ -24,10 +25,11 @@ The main menu consists of four buttons:
 This section guides users on how to enter or edit their current job details.
 
 ### 2.1 User Interface Screen
+<div style="display: flex;">
+    <img src="/images/EnterEditCurrentJob.png" alt="Main Menu Default" style="width: 300px;"/>
+    <img src="/images/EnterEditCurrentJob_Error.png" alt="Main Menu" style="width: 297px;"/>
+</div>
 
-![Current Job](../images/EnterEditCurrentJob.png)
-
-![Current Job with Error Message](../images/EnterEditCurrentJob_error.png)
 
 ### 2.2 Description of Each Field
 
@@ -65,7 +67,7 @@ This section explains how to enter job offer details.
 
 ### 3.1 User Interface Screen
 
-![Job Offers](../images/EnterJobOffers.png)
+![Job Offers](/images/EnterJobOffers.png)
 
 ### 3.2 Description of Each Field
 
@@ -97,7 +99,7 @@ This section allows users to adjust the comparison weights for each job benefit.
 
 ### 4.1 User Interface Screen
 
-![Comparison](../images/AdjustComparisonSetting.png)
+![Comparison](/images/AdjustComparisonSetting.png)
 
 ### 4.2 Description of Each Field
 
