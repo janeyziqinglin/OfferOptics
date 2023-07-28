@@ -1,7 +1,5 @@
 # Design Document
 
-**Author**: Abhinav Agrawal, Eunjeong Kim, Karina Islam, Ziqing Lin
-
 ## 1 Design Considerations
 
 ### 1.1 Assumptions
@@ -22,12 +20,14 @@ Software: The system is designed to operate on standard operating systems like W
 ### 2.1 Component Diagram
 
 Component Diagram
-![Screenshot 2023-06-24 at 10 39 20 PM](https://github.gatech.edu/storage/user/71553/files/dab952f4-0bd9-4e4a-8469-b92f672705a2)
+
+<img src="https://github.gatech.edu/storage/user/71553/files/dab952f4-0bd9-4e4a-8469-b92f672705a2" alt="Screenshot" width="600"/>
 
 ### 2.2 Deployment Diagram
 
 Deployment Diagram
-![Screenshot 2023-06-24 at 10 40 07 PM](https://github.gatech.edu/storage/user/71553/files/b3a6e6b1-b4c4-4927-a05e-0b2ce87db954)
+
+<img src="https://github.gatech.edu/storage/user/71553/files/b3a6e6b1-b4c4-4927-a05e-0b2ce87db954" alt="Screenshot" width="600"/>
 
 
 ## 3 Low-Level Design
