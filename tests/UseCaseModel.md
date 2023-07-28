@@ -1,14 +1,6 @@
 ﻿ # Use Case Model
 
-
-
-
-**Author**: Karina Islam, Ziqing Lin, Abhinav Agrawal, Eunjeong Kim
-
-
 ## 1 Use Case Diagram
-
-
   
 ![use case model](../images/Use_Case_Diagram.png)
 
@@ -54,9 +46,6 @@ Scenarios:
 
 
 
-
-
-
 3 Use Case: Adjust Comparison Settings
 
 
@@ -71,9 +60,6 @@ Scenarios:
 * The user enters the weights of the Comparison Settings factors.
 * If the user selects “save” it will save the details.
 * The app returns to the main menu after saving.
-
-
-
 
 
 
@@ -95,8 +81,3 @@ Scenarios:
 * The user could either choose “another comparison” or “return to the main menu.”
 
 
-
-
-
-
-   *    *
