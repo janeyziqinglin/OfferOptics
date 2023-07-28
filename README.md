@@ -1,9 +1,11 @@
 # OfferOptics: Your Ultimate Job Offer Comparison App
 ## Background
 
-Introducing George P. Burdell, a trailblazing and enterprising graduate who is on the hunt for the perfect job opportunity in the US. As George ventures through the labyrinth of job offers, brimming with enticing benefits, diverse locations, and countless considerations beyond mere salary figures, he realizes the need for a game-changing solution to ease this daunting journey. And just when he thought all hope was lost, he stumbled upon OfferOptics, a revolutionary and user-friendly single-user job offer comparison app that promises to be his ultimate career companion.
+Introducing __George P. Burdell__, a trailblazing and enterprising graduate who is on the hunt for the perfect job opportunity in the US. As George ventures through the labyrinth of job offers, brimming with enticing benefits, diverse locations, and countless considerations beyond mere salary figures, he realizes the need for a game-changing solution to ease this daunting journey. And just when he thought all hope was lost, he stumbled upon OfferOptics, a revolutionary and user-friendly single-user job offer comparison app that promises to be his ultimate career companion.
 
-![GIF](https://i.pinimg.com/originals/72/a0/bf/72a0bf71b29e145665b5d6e0a5ffa0cf.gif)
+<div align="center">
+  <img src="https://i.pinimg.com/originals/72/a0/bf/72a0bf71b29e145665b5d6e0a5ffa0cf.gif" alt="OfferOptics GIF" width="400px"/>
+</div>
 
 ## Key Features
 
