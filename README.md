@@ -11,13 +11,14 @@ Introducing __George P. Burdell__, a trailblazing and enterprising graduate who 
 
 ### Main Menu 
 
-[Upon launching OfferOptics, George is welcomed by a versatile main menu. It offers four primary options](#main-menu):
+Upon launching OfferOptics, George is welcomed by a versatile main menu. It offers four primary options:
 
-- Enter/Edit Current Job Details
-- Enter Job Offers
-- Adjust Comparison Settings
-- Compare Job Offers (Disabled if no offers have been entered yet)
+- [Enter/Edit Current Job Details](#enteredit-current-job)
+- [Enter Job Offers](#enter-job-offers)
+- [Adjust Comparison Settings](#adjust-comparison-setting)
+- [Compare Job Offers](#compare-job-offers) (Disabled if no offers have been entered yet)
 
+<a name="enteredit-current-job"></a>
 ### Entering/Editing Current Job Details
 
 OfferOptics presents George with an intuitive user interface to enter or modify the details of his current job, including:
@@ -34,6 +35,7 @@ OfferOptics presents George with an intuitive user interface to enter or modify 
 
 He can effortlessly save the job details or exit without saving, seamlessly returning to the main menu in both cases.
 
+<a name="enter-job-offers"></a>
 ### Entering Job Offers
 
 George finds it straightforward to enter the details of job offers through a user interface mirroring the current job form. He can effortlessly save or cancel the entry. Additionally, George has the freedom to:
@@ -42,6 +44,7 @@ George finds it straightforward to enter the details of job offers through a use
 - Return to the main menu
 - Compare the saved offer (if present) with his current job details (if available)
 
+<a name="adjust-comparison-setting"></a>
 ### Adjusting Comparison Settings
 
 OfferOptics empowers George to customize the comparison by assigning integer weights to essential factors like:
@@ -54,6 +57,7 @@ OfferOptics empowers George to customize the comparison by assigning integer wei
 
 Alternatively, if George prefers simplicity, all factors are treated as equal.
 
+<a name="compare-job-offers"></a>
 ### Comparing Job Offers
 
 The heart of OfferOptics lies in its job offer comparison feature. Upon selection, George is presented with a ranked list of job offers, arranged from best to worst. The current job, if available, is clearly indicated in the list. To compare, George:
@@ -97,10 +101,11 @@ To get started with OfferOptics, follow below instructions in User Manual.
 
 This user manual provides a detailed guide on how to use the Job Offer Comparison App.
 
-<a name="main-menu"></a>
+
 ## 1. Main Menu
 
 Upon launching the app, users are presented with the main menu. The main menu provides options for various functionalities:
+<a name="main-menu"></a>
 
 <div style="display: flex;">
     <img src="/images/MainMenu_default.png" alt="Main Menu Default" style="width: 300px;"/>
