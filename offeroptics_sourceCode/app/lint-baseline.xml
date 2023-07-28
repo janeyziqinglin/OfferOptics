@@ -1,0 +1,2120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issues format="6" by="lint 7.4.0" type="baseline" client="gradle" dependencies="false" name="AGP (7.4.0)" variant="all" version="7.4.0">
+
+    <issue
+        id="ScopedStorage"
+        message="WRITE_EXTERNAL_STORAGE no longer provides write access when targeting Android 10+"
+        errorLine1="    &lt;uses-permission android:name=&quot;android.permission.WRITE_EXTERNAL_STORAGE&quot; />"
+        errorLine2="                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/AndroidManifest.xml"
+            line="4"
+            column="36"/>
+    </issue>
+
+    <issue
+        id="MissingConstraints"
+        message="This view is not constrained. It only has designtime positions, so it will jump to (0,0) at runtime unless you add the constraints"
+        errorLine1="    &lt;LinearLayout"
+        errorLine2="     ~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="10"
+            column="6"/>
+    </issue>
+
+    <issue
+        id="OldTargetApi"
+        message="Not targeting the latest versions of Android; compatibility modes apply. Consider testing and updating this version. Consult the android.os.Build.VERSION_CODES javadoc for details."
+        errorLine1="        targetSdk 31"
+        errorLine2="        ~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="12"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.appcompat:appcompat than 1.4.1 is available: 1.6.1"
+        errorLine1=""
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="37"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of com.google.android.material:material than 1.5.0 is available: 1.9.0"
+        errorLine1="dependencies {"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="38"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.constraintlayout:constraintlayout than 2.1.3 is available: 2.1.4"
+        errorLine1=""
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="39"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.test.ext:junit than 1.1.3 is available: 1.1.5"
+        errorLine1="    implementation &apos;com.google.android.material:material:1.5.0&apos;"
+        errorLine2="                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="41"
+            column="31"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.test.espresso:espresso-core than 3.4.0 is available: 3.5.1"
+        errorLine1="    implementation &apos;androidx.constraintlayout:constraintlayout:2.1.3&apos;"
+        errorLine2="                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="42"
+            column="31"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.test:rules than 1.4.0 is available: 1.5.0"
+        errorLine1="    testImplementation &apos;junit:junit:4.13.2&apos;"
+        errorLine2="                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="43"
+            column="31"/>
+    </issue>
+
+    <issue
+        id="ExtraText"
+        message="Unexpected text found in layout file: &quot;/>&quot;"
+        errorLine1="                        android:inputType=&quot;number&quot; />/>"
+        errorLine2="                                                     ~~">
+        <location
+            file="src/main/res/layout/activity_enter_job_details.xml"
+            line="227"
+            column="54"/>
+    </issue>
+
+    <issue
+        id="ObsoleteSdkInt"
+        message="Unnecessary; SDK_INT is always >= 31"
+        errorLine1="        tools:targetApi=&quot;31&quot;>"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/AndroidManifest.xml"
+            line="16"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="ObsoleteSdkInt"
+        message="This folder configuration (`v24`) is unnecessary; `minSdkVersion` is 31. Merge all the resources in this folder into `drawable`.">
+        <location
+            file="src/main/res/drawable-v24"/>
+    </issue>
+
+    <issue
+        id="ObsoleteSdkInt"
+        message="This folder configuration (`v26`) is unnecessary; `minSdkVersion` is 31. Merge all the resources in this folder into `mipmap-anydpi`.">
+        <location
+            file="src/main/res/mipmap-anydpi-v26"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.black` appears to be unused"
+        errorLine1="    &lt;color name=&quot;black&quot;>#FF000000&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/colors.xml"
+            line="3"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.white` appears to be unused"
+        errorLine1="    &lt;color name=&quot;white&quot;>#FFFFFFFF&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/colors.xml"
+            line="4"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UselessParent"
+        message="This `TableLayout` layout or its `LinearLayout` parent is unnecessary"
+        errorLine1="            &lt;TableLayout"
+        errorLine2="             ~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_display_comparison.xml"
+            line="42"
+            column="14"/>
+    </issue>
+
+    <issue
+        id="ButtonOrder"
+        message="Cancel button should be on the left (was &quot;Save | Cancel&quot;, should be &quot;Cancel | Save&quot;)"
+        errorLine1="            &lt;Button"
+        errorLine2="             ~~~~~~">
+        <location
+            file="src/main/res/layout/activity_enter_job_details.xml"
+            line="302"
+            column="14"/>
+    </issue>
+
+    <issue
+        id="ButtonStyle"
+        message="Buttons in button bars should be borderless; use `style=&quot;?android:attr/buttonBarButtonStyle&quot;` (and `?android:attr/buttonBarStyle` on the parent)"
+        errorLine1="            &lt;Button"
+        errorLine2="             ~~~~~~">
+        <location
+            file="src/main/res/layout/activity_adjust_comparison_setting.xml"
+            line="186"
+            column="14"/>
+    </issue>
+
+    <issue
+        id="ButtonStyle"
+        message="Buttons in button bars should be borderless; use `style=&quot;?android:attr/buttonBarButtonStyle&quot;` (and `?android:attr/buttonBarStyle` on the parent)"
+        errorLine1="            &lt;Button"
+        errorLine2="             ~~~~~~">
+        <location
+            file="src/main/res/layout/activity_adjust_comparison_setting.xml"
+            line="193"
+            column="14"/>
+    </issue>
+
+    <issue
+        id="ButtonStyle"
+        message="Buttons in button bars should be borderless; use `style=&quot;?android:attr/buttonBarButtonStyle&quot;` (and `?android:attr/buttonBarStyle` on the parent)"
+        errorLine1="        &lt;Button"
+        errorLine2="         ~~~~~~">
+        <location
+            file="src/main/res/layout/activity_compare_job_offers.xml"
+            line="82"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="ButtonStyle"
+        message="Buttons in button bars should be borderless; use `style=&quot;?android:attr/buttonBarButtonStyle&quot;` (and `?android:attr/buttonBarStyle` on the parent)"
+        errorLine1="        &lt;Button"
+        errorLine2="         ~~~~~~">
+        <location
+            file="src/main/res/layout/activity_compare_job_offers.xml"
+            line="89"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="ButtonStyle"
+        message="Buttons in button bars should be borderless; use `style=&quot;?android:attr/buttonBarButtonStyle&quot;` (and `?android:attr/buttonBarStyle` on the parent)"
+        errorLine1="            &lt;Button"
+        errorLine2="             ~~~~~~">
+        <location
+            file="src/main/res/layout/activity_display_comparison.xml"
+            line="365"
+            column="14"/>
+    </issue>
+
+    <issue
+        id="ButtonStyle"
+        message="Buttons in button bars should be borderless; use `style=&quot;?android:attr/buttonBarButtonStyle&quot;` (and `?android:attr/buttonBarStyle` on the parent)"
+        errorLine1="            &lt;Button"
+        errorLine2="             ~~~~~~">
+        <location
+            file="src/main/res/layout/activity_display_comparison.xml"
+            line="372"
+            column="14"/>
+    </issue>
+
+    <issue
+        id="ButtonStyle"
+        message="Buttons in button bars should be borderless; use `style=&quot;?android:attr/buttonBarButtonStyle&quot;` (and `?android:attr/buttonBarStyle` on the parent)"
+        errorLine1="            &lt;Button"
+        errorLine2="             ~~~~~~">
+        <location
+            file="src/main/res/layout/activity_enter_job_details.xml"
+            line="295"
+            column="14"/>
+    </issue>
+
+    <issue
+        id="ButtonStyle"
+        message="Buttons in button bars should be borderless; use `style=&quot;?android:attr/buttonBarButtonStyle&quot;` (and `?android:attr/buttonBarStyle` on the parent)"
+        errorLine1="            &lt;Button"
+        errorLine2="             ~~~~~~">
+        <location
+            file="src/main/res/layout/activity_enter_job_details.xml"
+            line="302"
+            column="14"/>
+    </issue>
+
+    <issue
+        id="ButtonStyle"
+        message="Buttons in button bars should be borderless; use `style=&quot;?android:attr/buttonBarButtonStyle&quot;` (and `?android:attr/buttonBarStyle` on the parent)"
+        errorLine1="            &lt;Button"
+        errorLine2="             ~~~~~~">
+        <location
+            file="src/main/res/layout/activity_enter_job_offers.xml"
+            line="295"
+            column="14"/>
+    </issue>
+
+    <issue
+        id="ButtonStyle"
+        message="Buttons in button bars should be borderless; use `style=&quot;?android:attr/buttonBarButtonStyle&quot;` (and `?android:attr/buttonBarStyle` on the parent)"
+        errorLine1="            &lt;Button"
+        errorLine2="             ~~~~~~">
+        <location
+            file="src/main/res/layout/activity_enter_job_offers.xml"
+            line="302"
+            column="14"/>
+    </issue>
+
+    <issue
+        id="ButtonStyle"
+        message="Buttons in button bars should be borderless; use `style=&quot;?android:attr/buttonBarButtonStyle&quot;` (and `?android:attr/buttonBarStyle` on the parent)"
+        errorLine1="            &lt;Button"
+        errorLine2="             ~~~~~~">
+        <location
+            file="src/main/res/layout/activity_enter_job_offers.xml"
+            line="308"
+            column="14"/>
+    </issue>
+
+    <issue
+        id="ButtonStyle"
+        message="Buttons in button bars should be borderless; use `style=&quot;?android:attr/buttonBarButtonStyle&quot;` (and `?android:attr/buttonBarStyle` on the parent)"
+        errorLine1="            &lt;Button"
+        errorLine2="             ~~~~~~">
+        <location
+            file="src/main/res/layout/activity_enter_job_offers.xml"
+            line="314"
+            column="14"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Adjust Comparison Setting&quot;, should use `@string` resource"
+        errorLine1="                android:text=&quot;Adjust Comparison Setting&quot;"
+        errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_adjust_comparison_setting.xml"
+            line="30"
+            column="17"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Yearly Salary&quot;, should use `@string` resource"
+        errorLine1="                    android:text=&quot;Yearly Salary&quot; />"
+        errorLine2="                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_adjust_comparison_setting.xml"
+            line="57"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;1.0&quot;, should use `@string` resource"
+        errorLine1="                        android:hint=&quot;1.0&quot; />"
+        errorLine2="                        ~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_adjust_comparison_setting.xml"
+            line="68"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Yearly Bonus&quot;, should use `@string` resource"
+        errorLine1="                    android:text=&quot;Yearly Bonus&quot; />"
+        errorLine2="                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_adjust_comparison_setting.xml"
+            line="84"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;1.0&quot;, should use `@string` resource"
+        errorLine1="                        android:hint=&quot;1.0&quot; />"
+        errorLine2="                        ~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_adjust_comparison_setting.xml"
+            line="95"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Leave&quot;, should use `@string` resource"
+        errorLine1="                    android:text=&quot;Leave&quot; />"
+        errorLine2="                    ~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_adjust_comparison_setting.xml"
+            line="111"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;1.0&quot;, should use `@string` resource"
+        errorLine1="                        android:hint=&quot;1.0&quot; />"
+        errorLine2="                        ~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_adjust_comparison_setting.xml"
+            line="122"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Maternity Leave&quot;, should use `@string` resource"
+        errorLine1="                    android:text=&quot;Maternity Leave&quot; />"
+        errorLine2="                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_adjust_comparison_setting.xml"
+            line="138"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;1.0&quot;, should use `@string` resource"
+        errorLine1="                        android:hint=&quot;1.0&quot; />"
+        errorLine2="                        ~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_adjust_comparison_setting.xml"
+            line="149"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Life Insurance&quot;, should use `@string` resource"
+        errorLine1="                    android:text=&quot;Life Insurance&quot; />"
+        errorLine2="                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_adjust_comparison_setting.xml"
+            line="165"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;1.0&quot;, should use `@string` resource"
+        errorLine1="                        android:hint=&quot;1.0&quot; />"
+        errorLine2="                        ~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_adjust_comparison_setting.xml"
+            line="176"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Save&quot;, should use `@string` resource"
+        errorLine1="                android:text=&quot;Save&quot; />"
+        errorLine2="                ~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_adjust_comparison_setting.xml"
+            line="191"
+            column="17"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Return&quot;, should use `@string` resource"
+        errorLine1="                android:text=&quot;Return&quot; />"
+        errorLine2="                ~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_adjust_comparison_setting.xml"
+            line="198"
+            column="17"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Compare Job Offers&quot;, should use `@string` resource"
+        errorLine1="            android:text=&quot;Compare Job Offers&quot;"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_compare_job_offers.xml"
+            line="30"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Job Title, Company Name&quot;, should use `@string` resource"
+        errorLine1="            android:text=&quot;Job Title, Company Name&quot; />"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_compare_job_offers.xml"
+            line="47"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Job Title, Company Name&quot;, should use `@string` resource"
+        errorLine1="            android:text=&quot;Job Title, Company Name&quot; />"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_compare_job_offers.xml"
+            line="54"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Job Title, Company Name&quot;, should use `@string` resource"
+        errorLine1="            android:text=&quot;Job Title, Company Name&quot; />"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_compare_job_offers.xml"
+            line="61"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Job Title, Company Name&quot;, should use `@string` resource"
+        errorLine1="            android:text=&quot;Job Title, Company Name&quot; />"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_compare_job_offers.xml"
+            line="68"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Job Title, Company Name&quot;, should use `@string` resource"
+        errorLine1="            android:text=&quot;Job Title, Company Name&quot; />"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_compare_job_offers.xml"
+            line="75"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Compare&quot;, should use `@string` resource"
+        errorLine1="            android:text=&quot;Compare&quot; />"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_compare_job_offers.xml"
+            line="87"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Return&quot;, should use `@string` resource"
+        errorLine1="            android:text=&quot;Return&quot; />"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_compare_job_offers.xml"
+            line="94"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Compare Job Offers&quot;, should use `@string` resource"
+        errorLine1="                android:text=&quot;Compare Job Offers&quot;"
+        errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_display_comparison.xml"
+            line="30"
+            column="17"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Factors&quot;, should use `@string` resource"
+        errorLine1="                        android:text=&quot;Factors&quot;"
+        errorLine2="                        ~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_display_comparison.xml"
+            line="60"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Job 1&quot;, should use `@string` resource"
+        errorLine1="                        android:text=&quot;Job 1&quot; />"
+        errorLine2="                        ~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_display_comparison.xml"
+            line="71"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Job 2&quot;, should use `@string` resource"
+        errorLine1="                        android:text=&quot;Job 2&quot; />"
+        errorLine2="                        ~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_display_comparison.xml"
+            line="81"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Title&quot;, should use `@string` resource"
+        errorLine1="                        android:text=&quot;Title&quot;"
+        errorLine2="                        ~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_display_comparison.xml"
+            line="96"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;TextView&quot;, should use `@string` resource"
+        errorLine1="                        android:text=&quot;TextView&quot; />"
+        errorLine2="                        ~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_display_comparison.xml"
+            line="106"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;TextView&quot;, should use `@string` resource"
+        errorLine1="                        android:text=&quot;TextView&quot; />"
+        errorLine2="                        ~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_display_comparison.xml"
+            line="115"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Company&quot;, should use `@string` resource"
+        errorLine1="                        android:text=&quot;Company&quot;"
+        errorLine2="                        ~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_display_comparison.xml"
+            line="130"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;TextView&quot;, should use `@string` resource"
+        errorLine1="                        android:text=&quot;TextView&quot; />"
+        errorLine2="                        ~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_display_comparison.xml"
+            line="140"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;TextView&quot;, should use `@string` resource"
+        errorLine1="                        android:text=&quot;TextView&quot; />"
+        errorLine2="                        ~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_display_comparison.xml"
+            line="149"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Location&quot;, should use `@string` resource"
+        errorLine1="                        android:text=&quot;Location&quot;"
+        errorLine2="                        ~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_display_comparison.xml"
+            line="164"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;TextView&quot;, should use `@string` resource"
+        errorLine1="                        android:text=&quot;TextView&quot; />"
+        errorLine2="                        ~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_display_comparison.xml"
+            line="174"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;TextView&quot;, should use `@string` resource"
+        errorLine1="                        android:text=&quot;TextView&quot; />"
+        errorLine2="                        ~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_display_comparison.xml"
+            line="183"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Yearly Salary&quot;, should use `@string` resource"
+        errorLine1="                        android:text=&quot;Yearly Salary&quot;"
+        errorLine2="                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_display_comparison.xml"
+            line="198"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;TextView&quot;, should use `@string` resource"
+        errorLine1="                        android:text=&quot;TextView&quot; />"
+        errorLine2="                        ~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_display_comparison.xml"
+            line="208"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;TextView&quot;, should use `@string` resource"
+        errorLine1="                        android:text=&quot;TextView&quot; />"
+        errorLine2="                        ~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_display_comparison.xml"
+            line="217"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Yearly  Bonus&quot;, should use `@string` resource"
+        errorLine1="                        android:text=&quot;Yearly  Bonus&quot;"
+        errorLine2="                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_display_comparison.xml"
+            line="232"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;TextView&quot;, should use `@string` resource"
+        errorLine1="                        android:text=&quot;TextView&quot; />"
+        errorLine2="                        ~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_display_comparison.xml"
+            line="242"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;TextView&quot;, should use `@string` resource"
+        errorLine1="                        android:text=&quot;TextView&quot; />"
+        errorLine2="                        ~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_display_comparison.xml"
+            line="251"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Leave&quot;, should use `@string` resource"
+        errorLine1="                        android:text=&quot;Leave&quot;"
+        errorLine2="                        ~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_display_comparison.xml"
+            line="266"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;TextView&quot;, should use `@string` resource"
+        errorLine1="                        android:text=&quot;TextView&quot; />"
+        errorLine2="                        ~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_display_comparison.xml"
+            line="276"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;TextView&quot;, should use `@string` resource"
+        errorLine1="                        android:text=&quot;TextView&quot; />"
+        errorLine2="                        ~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_display_comparison.xml"
+            line="285"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Maternity/ Paternity&quot;, should use `@string` resource"
+        errorLine1="                        android:text=&quot;Maternity/ Paternity&quot;"
+        errorLine2="                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_display_comparison.xml"
+            line="300"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;TextView&quot;, should use `@string` resource"
+        errorLine1="                        android:text=&quot;TextView&quot; />"
+        errorLine2="                        ~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_display_comparison.xml"
+            line="310"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;TextView&quot;, should use `@string` resource"
+        errorLine1="                        android:text=&quot;TextView&quot; />"
+        errorLine2="                        ~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_display_comparison.xml"
+            line="319"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Life Insurance&quot;, should use `@string` resource"
+        errorLine1="                        android:text=&quot;Life Insurance&quot;"
+        errorLine2="                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_display_comparison.xml"
+            line="333"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;TextView&quot;, should use `@string` resource"
+        errorLine1="                        android:text=&quot;TextView&quot; />"
+        errorLine2="                        ~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_display_comparison.xml"
+            line="343"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;TextView&quot;, should use `@string` resource"
+        errorLine1="                        android:text=&quot;TextView&quot; />"
+        errorLine2="                        ~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_display_comparison.xml"
+            line="352"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Compare&quot;, should use `@string` resource"
+        errorLine1="                android:text=&quot;Compare&quot; />"
+        errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_display_comparison.xml"
+            line="370"
+            column="17"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Return&quot;, should use `@string` resource"
+        errorLine1="                android:text=&quot;Return&quot; />"
+        errorLine2="                ~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_display_comparison.xml"
+            line="377"
+            column="17"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Enter/Edit Current Job Details&quot;, should use `@string` resource"
+        errorLine1="                android:text=&quot;Enter/Edit Current Job Details&quot;"
+        errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_enter_job_details.xml"
+            line="26"
+            column="17"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Title&quot;, should use `@string` resource"
+        errorLine1="                    android:text=&quot;Title&quot; />"
+        errorLine2="                    ~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_enter_job_details.xml"
+            line="50"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Software Developer&quot;, should use `@string` resource"
+        errorLine1="                        android:hint=&quot;Software Developer&quot; />"
+        errorLine2="                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_enter_job_details.xml"
+            line="61"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Company&quot;, should use `@string` resource"
+        errorLine1="                    android:text=&quot;Company&quot; />"
+        errorLine2="                    ~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_enter_job_details.xml"
+            line="77"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Google&quot;, should use `@string` resource"
+        errorLine1="                        android:hint=&quot;Google&quot; />"
+        errorLine2="                        ~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_enter_job_details.xml"
+            line="88"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Location&quot;, should use `@string` resource"
+        errorLine1="                    android:text=&quot;Location&quot; />"
+        errorLine2="                    ~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_enter_job_details.xml"
+            line="104"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Boston MA&quot;, should use `@string` resource"
+        errorLine1="                        android:hint=&quot;Boston MA&quot; />"
+        errorLine2="                        ~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_enter_job_details.xml"
+            line="115"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Cost of Living&quot;, should use `@string` resource"
+        errorLine1="                    android:text=&quot;Cost of Living&quot; />"
+        errorLine2="                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_enter_job_details.xml"
+            line="131"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;212&quot;, should use `@string` resource"
+        errorLine1="                        android:hint=&quot;212&quot;"
+        errorLine2="                        ~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_enter_job_details.xml"
+            line="142"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Yearly Salary&quot;, should use `@string` resource"
+        errorLine1="                    android:text=&quot;Yearly Salary&quot; />"
+        errorLine2="                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_enter_job_details.xml"
+            line="159"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;100000.00&quot;, should use `@string` resource"
+        errorLine1="                        android:hint=&quot;100000.00&quot;"
+        errorLine2="                        ~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_enter_job_details.xml"
+            line="170"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Yearly Bonus&quot;, should use `@string` resource"
+        errorLine1="                    android:text=&quot;Yearly Bonus&quot; />"
+        errorLine2="                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_enter_job_details.xml"
+            line="187"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;2000.00&quot;, should use `@string` resource"
+        errorLine1="                        android:hint=&quot;2000.00&quot;"
+        errorLine2="                        ~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_enter_job_details.xml"
+            line="198"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Leave&quot;, should use `@string` resource"
+        errorLine1="                    android:text=&quot;Leave&quot; />"
+        errorLine2="                    ~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_enter_job_details.xml"
+            line="215"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;1&quot;, should use `@string` resource"
+        errorLine1="                        android:hint=&quot;1&quot;"
+        errorLine2="                        ~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_enter_job_details.xml"
+            line="226"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Maternity/Paternity Leave&quot;, should use `@string` resource"
+        errorLine1="                    android:text=&quot;Maternity/Paternity Leave&quot; />"
+        errorLine2="                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_enter_job_details.xml"
+            line="243"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;1&quot;, should use `@string` resource"
+        errorLine1="                        android:hint=&quot;1&quot;"
+        errorLine2="                        ~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_enter_job_details.xml"
+            line="254"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Life Insurance&quot;, should use `@string` resource"
+        errorLine1="                    android:text=&quot;Life Insurance&quot; />"
+        errorLine2="                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_enter_job_details.xml"
+            line="271"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;1&quot;, should use `@string` resource"
+        errorLine1="                        android:hint=&quot;1&quot;"
+        errorLine2="                        ~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_enter_job_details.xml"
+            line="282"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Save&quot;, should use `@string` resource"
+        errorLine1="                android:text=&quot;Save&quot; />"
+        errorLine2="                ~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_enter_job_details.xml"
+            line="300"
+            column="17"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Cancel&quot;, should use `@string` resource"
+        errorLine1="                android:text=&quot;Cancel&quot; />"
+        errorLine2="                ~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_enter_job_details.xml"
+            line="307"
+            column="17"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Enter Job Offers&quot;, should use `@string` resource"
+        errorLine1="                android:text=&quot;Enter Job Offers&quot;"
+        errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_enter_job_offers.xml"
+            line="28"
+            column="17"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Title&quot;, should use `@string` resource"
+        errorLine1="                    android:text=&quot;Title&quot; />"
+        errorLine2="                    ~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_enter_job_offers.xml"
+            line="52"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Software Developer&quot;, should use `@string` resource"
+        errorLine1="                        android:hint=&quot;Software Developer&quot; />"
+        errorLine2="                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_enter_job_offers.xml"
+            line="63"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Company&quot;, should use `@string` resource"
+        errorLine1="                    android:text=&quot;Company&quot; />"
+        errorLine2="                    ~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_enter_job_offers.xml"
+            line="79"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Google&quot;, should use `@string` resource"
+        errorLine1="                        android:hint=&quot;Google&quot; />"
+        errorLine2="                        ~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_enter_job_offers.xml"
+            line="90"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Location&quot;, should use `@string` resource"
+        errorLine1="                    android:text=&quot;Location&quot; />"
+        errorLine2="                    ~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_enter_job_offers.xml"
+            line="106"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Boston MA&quot;, should use `@string` resource"
+        errorLine1="                        android:hint=&quot;Boston MA&quot; />"
+        errorLine2="                        ~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_enter_job_offers.xml"
+            line="117"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Cost of Living&quot;, should use `@string` resource"
+        errorLine1="                    android:text=&quot;Cost of Living&quot; />"
+        errorLine2="                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_enter_job_offers.xml"
+            line="133"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;212&quot;, should use `@string` resource"
+        errorLine1="                        android:hint=&quot;212&quot;"
+        errorLine2="                        ~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_enter_job_offers.xml"
+            line="144"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Yearly Salary&quot;, should use `@string` resource"
+        errorLine1="                    android:text=&quot;Yearly Salary&quot; />"
+        errorLine2="                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_enter_job_offers.xml"
+            line="161"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;100000.00&quot;, should use `@string` resource"
+        errorLine1="                        android:hint=&quot;100000.00&quot;"
+        errorLine2="                        ~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_enter_job_offers.xml"
+            line="172"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Yearly Bonus&quot;, should use `@string` resource"
+        errorLine1="                    android:text=&quot;Yearly Bonus&quot; />"
+        errorLine2="                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_enter_job_offers.xml"
+            line="189"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;2000.00&quot;, should use `@string` resource"
+        errorLine1="                        android:hint=&quot;2000.00&quot;"
+        errorLine2="                        ~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_enter_job_offers.xml"
+            line="200"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Leave&quot;, should use `@string` resource"
+        errorLine1="                    android:text=&quot;Leave&quot; />"
+        errorLine2="                    ~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_enter_job_offers.xml"
+            line="217"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;1&quot;, should use `@string` resource"
+        errorLine1="                        android:hint=&quot;1&quot;"
+        errorLine2="                        ~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_enter_job_offers.xml"
+            line="228"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Maternity/Paternity Leave&quot;, should use `@string` resource"
+        errorLine1="                    android:text=&quot;Maternity/Paternity Leave&quot; />"
+        errorLine2="                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_enter_job_offers.xml"
+            line="245"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;1&quot;, should use `@string` resource"
+        errorLine1="                        android:hint=&quot;1&quot;"
+        errorLine2="                        ~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_enter_job_offers.xml"
+            line="256"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Life Insurance&quot;, should use `@string` resource"
+        errorLine1="                    android:text=&quot;Life Insurance&quot; />"
+        errorLine2="                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_enter_job_offers.xml"
+            line="273"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;1&quot;, should use `@string` resource"
+        errorLine1="                        android:hint=&quot;1&quot;"
+        errorLine2="                        ~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_enter_job_offers.xml"
+            line="284"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Save&quot;, should use `@string` resource"
+        errorLine1="                android:text=&quot;Save&quot; />"
+        errorLine2="                ~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_enter_job_offers.xml"
+            line="300"
+            column="17"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Return&quot;, should use `@string` resource"
+        errorLine1="                android:text=&quot;Return&quot; />"
+        errorLine2="                ~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_enter_job_offers.xml"
+            line="307"
+            column="17"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Compare&quot;, should use `@string` resource"
+        errorLine1="                android:text=&quot;Compare&quot; />"
+        errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_enter_job_offers.xml"
+            line="313"
+            column="17"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;New Offer&quot;, should use `@string` resource"
+        errorLine1="                android:text=&quot;New Offer&quot; />"
+        errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_enter_job_offers.xml"
+            line="319"
+            column="17"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Main Menu&quot;, should use `@string` resource"
+        errorLine1="                android:text=&quot;Main Menu&quot;"
+        errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="28"
+            column="17"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Enter/Edit Current Job Details&quot;, should use `@string` resource"
+        errorLine1="                android:text=&quot;Enter/Edit Current Job Details&quot; />"
+        errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="45"
+            column="17"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Enter Job Offers&quot;, should use `@string` resource"
+        errorLine1="                android:text=&quot;Enter Job Offers&quot; />"
+        errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="52"
+            column="17"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Comparison Setting&quot;, should use `@string` resource"
+        errorLine1="                android:text=&quot;Comparison Setting&quot; />"
+        errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="59"
+            column="17"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Compare Job Offers&quot;, should use `@string` resource"
+        errorLine1="                android:text=&quot;Compare Job Offers&quot; />"
+        errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="66"
+            column="17"/>
+    </issue>
+
+    <issue
+        id="RtlCompat"
+        message="Inconsistent alignment specification between `textAlignment` and `gravity` attributes: was `center_horizontal`, expected `start`"
+        errorLine1="                        android:textAlignment=&quot;viewStart&quot; />"
+        errorLine2="                                               ~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_display_comparison.xml"
+            line="61"
+            column="48"/>
+        <location
+            file="src/main/res/layout/activity_display_comparison.xml"
+            line="58"
+            column="42"
+            message="Incompatible direction here"/>
+    </issue>
+
+    <issue
+        id="RtlCompat"
+        message="Inconsistent alignment specification between `textAlignment` and `gravity` attributes: was `center_horizontal`, expected `start`"
+        errorLine1="                        android:textAlignment=&quot;viewStart&quot; />"
+        errorLine2="                                               ~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_display_comparison.xml"
+            line="97"
+            column="48"/>
+        <location
+            file="src/main/res/layout/activity_display_comparison.xml"
+            line="94"
+            column="42"
+            message="Incompatible direction here"/>
+    </issue>
+
+    <issue
+        id="RtlCompat"
+        message="Inconsistent alignment specification between `textAlignment` and `gravity` attributes: was `center_horizontal`, expected `start`"
+        errorLine1="                        android:textAlignment=&quot;viewStart&quot; />"
+        errorLine2="                                               ~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_display_comparison.xml"
+            line="131"
+            column="48"/>
+        <location
+            file="src/main/res/layout/activity_display_comparison.xml"
+            line="128"
+            column="42"
+            message="Incompatible direction here"/>
+    </issue>
+
+    <issue
+        id="RtlCompat"
+        message="Inconsistent alignment specification between `textAlignment` and `gravity` attributes: was `center_horizontal`, expected `start`"
+        errorLine1="                        android:textAlignment=&quot;viewStart&quot; />"
+        errorLine2="                                               ~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_display_comparison.xml"
+            line="165"
+            column="48"/>
+        <location
+            file="src/main/res/layout/activity_display_comparison.xml"
+            line="162"
+            column="42"
+            message="Incompatible direction here"/>
+    </issue>
+
+    <issue
+        id="RtlCompat"
+        message="Inconsistent alignment specification between `textAlignment` and `gravity` attributes: was `center_horizontal`, expected `start`"
+        errorLine1="                        android:textAlignment=&quot;viewStart&quot; />"
+        errorLine2="                                               ~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_display_comparison.xml"
+            line="199"
+            column="48"/>
+        <location
+            file="src/main/res/layout/activity_display_comparison.xml"
+            line="196"
+            column="42"
+            message="Incompatible direction here"/>
+    </issue>
+
+    <issue
+        id="RtlCompat"
+        message="Inconsistent alignment specification between `textAlignment` and `gravity` attributes: was `center_horizontal`, expected `start`"
+        errorLine1="                        android:textAlignment=&quot;viewStart&quot; />"
+        errorLine2="                                               ~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_display_comparison.xml"
+            line="233"
+            column="48"/>
+        <location
+            file="src/main/res/layout/activity_display_comparison.xml"
+            line="230"
+            column="42"
+            message="Incompatible direction here"/>
+    </issue>
+
+    <issue
+        id="RtlCompat"
+        message="Inconsistent alignment specification between `textAlignment` and `gravity` attributes: was `center_horizontal`, expected `start`"
+        errorLine1="                        android:textAlignment=&quot;viewStart&quot; />"
+        errorLine2="                                               ~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_display_comparison.xml"
+            line="267"
+            column="48"/>
+        <location
+            file="src/main/res/layout/activity_display_comparison.xml"
+            line="264"
+            column="42"
+            message="Incompatible direction here"/>
+    </issue>
+
+    <issue
+        id="RtlCompat"
+        message="Inconsistent alignment specification between `textAlignment` and `gravity` attributes: was `center_horizontal`, expected `start`"
+        errorLine1="                        android:textAlignment=&quot;viewStart&quot; />"
+        errorLine2="                                               ~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_display_comparison.xml"
+            line="301"
+            column="48"/>
+        <location
+            file="src/main/res/layout/activity_display_comparison.xml"
+            line="298"
+            column="42"
+            message="Incompatible direction here"/>
+    </issue>
+
+    <issue
+        id="RtlCompat"
+        message="Inconsistent alignment specification between `textAlignment` and `gravity` attributes: was `center_horizontal`, expected `start`"
+        errorLine1="                        android:textAlignment=&quot;viewStart&quot; />"
+        errorLine2="                                               ~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_display_comparison.xml"
+            line="334"
+            column="48"/>
+        <location
+            file="src/main/res/layout/activity_display_comparison.xml"
+            line="331"
+            column="42"
+            message="Incompatible direction here"/>
+    </issue>
+
+    <issue
+        id="RtlSymmetry"
+        message="When you define `paddingLeft` you should probably also define `paddingRight` for right-to-left symmetry"
+        errorLine1="                    android:paddingLeft=&quot;10dp&quot;"
+        errorLine2="                    ~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_adjust_comparison_setting.xml"
+            line="55"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="RtlSymmetry"
+        message="When you define `paddingLeft` you should probably also define `paddingRight` for right-to-left symmetry"
+        errorLine1="                    android:paddingLeft=&quot;10dp&quot;"
+        errorLine2="                    ~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_adjust_comparison_setting.xml"
+            line="82"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="RtlSymmetry"
+        message="When you define `paddingLeft` you should probably also define `paddingRight` for right-to-left symmetry"
+        errorLine1="                    android:paddingLeft=&quot;10dp&quot;"
+        errorLine2="                    ~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_adjust_comparison_setting.xml"
+            line="109"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="RtlSymmetry"
+        message="When you define `paddingLeft` you should probably also define `paddingRight` for right-to-left symmetry"
+        errorLine1="                    android:paddingLeft=&quot;10dp&quot;"
+        errorLine2="                    ~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_adjust_comparison_setting.xml"
+            line="136"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="RtlSymmetry"
+        message="When you define `paddingLeft` you should probably also define `paddingRight` for right-to-left symmetry"
+        errorLine1="                    android:paddingLeft=&quot;10dp&quot;"
+        errorLine2="                    ~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_adjust_comparison_setting.xml"
+            line="163"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="RtlSymmetry"
+        message="When you define `paddingLeft` you should probably also define `paddingRight` for right-to-left symmetry"
+        errorLine1="                    android:paddingLeft=&quot;10dp&quot;"
+        errorLine2="                    ~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_enter_job_details.xml"
+            line="48"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="RtlSymmetry"
+        message="When you define `paddingLeft` you should probably also define `paddingRight` for right-to-left symmetry"
+        errorLine1="                    android:paddingLeft=&quot;10dp&quot;"
+        errorLine2="                    ~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_enter_job_details.xml"
+            line="75"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="RtlSymmetry"
+        message="When you define `paddingLeft` you should probably also define `paddingRight` for right-to-left symmetry"
+        errorLine1="                    android:paddingLeft=&quot;10dp&quot;"
+        errorLine2="                    ~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_enter_job_details.xml"
+            line="102"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="RtlSymmetry"
+        message="When you define `paddingLeft` you should probably also define `paddingRight` for right-to-left symmetry"
+        errorLine1="                    android:paddingLeft=&quot;10dp&quot;"
+        errorLine2="                    ~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_enter_job_details.xml"
+            line="129"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="RtlSymmetry"
+        message="When you define `paddingLeft` you should probably also define `paddingRight` for right-to-left symmetry"
+        errorLine1="                    android:paddingLeft=&quot;10dp&quot;"
+        errorLine2="                    ~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_enter_job_details.xml"
+            line="157"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="RtlSymmetry"
+        message="When you define `paddingLeft` you should probably also define `paddingRight` for right-to-left symmetry"
+        errorLine1="                    android:paddingLeft=&quot;10dp&quot;"
+        errorLine2="                    ~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_enter_job_details.xml"
+            line="185"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="RtlSymmetry"
+        message="When you define `paddingLeft` you should probably also define `paddingRight` for right-to-left symmetry"
+        errorLine1="                    android:paddingLeft=&quot;10dp&quot;"
+        errorLine2="                    ~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_enter_job_details.xml"
+            line="213"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="RtlSymmetry"
+        message="When you define `paddingLeft` you should probably also define `paddingRight` for right-to-left symmetry"
+        errorLine1="                    android:paddingLeft=&quot;10dp&quot;"
+        errorLine2="                    ~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_enter_job_details.xml"
+            line="241"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="RtlSymmetry"
+        message="When you define `paddingLeft` you should probably also define `paddingRight` for right-to-left symmetry"
+        errorLine1="                    android:paddingLeft=&quot;10dp&quot;"
+        errorLine2="                    ~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_enter_job_details.xml"
+            line="269"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="RtlSymmetry"
+        message="When you define `paddingLeft` you should probably also define `paddingRight` for right-to-left symmetry"
+        errorLine1="                    android:paddingLeft=&quot;10dp&quot;"
+        errorLine2="                    ~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_enter_job_offers.xml"
+            line="50"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="RtlSymmetry"
+        message="When you define `paddingLeft` you should probably also define `paddingRight` for right-to-left symmetry"
+        errorLine1="                    android:paddingLeft=&quot;10dp&quot;"
+        errorLine2="                    ~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_enter_job_offers.xml"
+            line="77"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="RtlSymmetry"
+        message="When you define `paddingLeft` you should probably also define `paddingRight` for right-to-left symmetry"
+        errorLine1="                    android:paddingLeft=&quot;10dp&quot;"
+        errorLine2="                    ~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_enter_job_offers.xml"
+            line="104"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="RtlSymmetry"
+        message="When you define `paddingLeft` you should probably also define `paddingRight` for right-to-left symmetry"
+        errorLine1="                    android:paddingLeft=&quot;10dp&quot;"
+        errorLine2="                    ~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_enter_job_offers.xml"
+            line="131"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="RtlSymmetry"
+        message="When you define `paddingLeft` you should probably also define `paddingRight` for right-to-left symmetry"
+        errorLine1="                    android:paddingLeft=&quot;10dp&quot;"
+        errorLine2="                    ~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_enter_job_offers.xml"
+            line="159"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="RtlSymmetry"
+        message="When you define `paddingLeft` you should probably also define `paddingRight` for right-to-left symmetry"
+        errorLine1="                    android:paddingLeft=&quot;10dp&quot;"
+        errorLine2="                    ~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_enter_job_offers.xml"
+            line="187"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="RtlSymmetry"
+        message="When you define `paddingLeft` you should probably also define `paddingRight` for right-to-left symmetry"
+        errorLine1="                    android:paddingLeft=&quot;10dp&quot;"
+        errorLine2="                    ~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_enter_job_offers.xml"
+            line="215"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="RtlSymmetry"
+        message="When you define `paddingLeft` you should probably also define `paddingRight` for right-to-left symmetry"
+        errorLine1="                    android:paddingLeft=&quot;10dp&quot;"
+        errorLine2="                    ~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_enter_job_offers.xml"
+            line="243"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="RtlSymmetry"
+        message="When you define `paddingLeft` you should probably also define `paddingRight` for right-to-left symmetry"
+        errorLine1="                    android:paddingLeft=&quot;10dp&quot;"
+        errorLine2="                    ~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_enter_job_offers.xml"
+            line="271"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="RtlHardcoded"
+        message="Consider replacing `android:paddingLeft` with `android:paddingStart=&quot;10dp&quot;` to better support right-to-left layouts"
+        errorLine1="                    android:paddingLeft=&quot;10dp&quot;"
+        errorLine2="                    ~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_adjust_comparison_setting.xml"
+            line="55"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="RtlHardcoded"
+        message="Consider replacing `android:paddingLeft` with `android:paddingStart=&quot;10dp&quot;` to better support right-to-left layouts"
+        errorLine1="                    android:paddingLeft=&quot;10dp&quot;"
+        errorLine2="                    ~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_adjust_comparison_setting.xml"
+            line="82"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="RtlHardcoded"
+        message="Consider replacing `android:paddingLeft` with `android:paddingStart=&quot;10dp&quot;` to better support right-to-left layouts"
+        errorLine1="                    android:paddingLeft=&quot;10dp&quot;"
+        errorLine2="                    ~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_adjust_comparison_setting.xml"
+            line="109"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="RtlHardcoded"
+        message="Consider replacing `android:paddingLeft` with `android:paddingStart=&quot;10dp&quot;` to better support right-to-left layouts"
+        errorLine1="                    android:paddingLeft=&quot;10dp&quot;"
+        errorLine2="                    ~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_adjust_comparison_setting.xml"
+            line="136"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="RtlHardcoded"
+        message="Consider replacing `android:paddingLeft` with `android:paddingStart=&quot;10dp&quot;` to better support right-to-left layouts"
+        errorLine1="                    android:paddingLeft=&quot;10dp&quot;"
+        errorLine2="                    ~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_adjust_comparison_setting.xml"
+            line="163"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="RtlHardcoded"
+        message="Consider replacing `android:layout_marginLeft` with `android:layout_marginStart=&quot;10dp&quot;` to better support right-to-left layouts"
+        errorLine1="            android:layout_marginLeft=&quot;10dp&quot;"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_compare_job_offers.xml"
+            line="46"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="RtlHardcoded"
+        message="Consider replacing `android:layout_marginLeft` with `android:layout_marginStart=&quot;10dp&quot;` to better support right-to-left layouts"
+        errorLine1="            android:layout_marginLeft=&quot;10dp&quot;"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_compare_job_offers.xml"
+            line="53"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="RtlHardcoded"
+        message="Consider replacing `android:layout_marginLeft` with `android:layout_marginStart=&quot;10dp&quot;` to better support right-to-left layouts"
+        errorLine1="            android:layout_marginLeft=&quot;10dp&quot;"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_compare_job_offers.xml"
+            line="60"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="RtlHardcoded"
+        message="Consider replacing `android:layout_marginLeft` with `android:layout_marginStart=&quot;10dp&quot;` to better support right-to-left layouts"
+        errorLine1="            android:layout_marginLeft=&quot;10dp&quot;"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_compare_job_offers.xml"
+            line="67"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="RtlHardcoded"
+        message="Consider replacing `android:layout_marginLeft` with `android:layout_marginStart=&quot;10dp&quot;` to better support right-to-left layouts"
+        errorLine1="            android:layout_marginLeft=&quot;10dp&quot;"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_compare_job_offers.xml"
+            line="74"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="RtlHardcoded"
+        message="Consider replacing `android:paddingLeft` with `android:paddingStart=&quot;10dp&quot;` to better support right-to-left layouts"
+        errorLine1="                    android:paddingLeft=&quot;10dp&quot;"
+        errorLine2="                    ~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_enter_job_details.xml"
+            line="48"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="RtlHardcoded"
+        message="Consider replacing `android:paddingLeft` with `android:paddingStart=&quot;10dp&quot;` to better support right-to-left layouts"
+        errorLine1="                    android:paddingLeft=&quot;10dp&quot;"
+        errorLine2="                    ~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_enter_job_details.xml"
+            line="75"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="RtlHardcoded"
+        message="Consider replacing `android:paddingLeft` with `android:paddingStart=&quot;10dp&quot;` to better support right-to-left layouts"
+        errorLine1="                    android:paddingLeft=&quot;10dp&quot;"
+        errorLine2="                    ~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_enter_job_details.xml"
+            line="102"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="RtlHardcoded"
+        message="Consider replacing `android:paddingLeft` with `android:paddingStart=&quot;10dp&quot;` to better support right-to-left layouts"
+        errorLine1="                    android:paddingLeft=&quot;10dp&quot;"
+        errorLine2="                    ~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_enter_job_details.xml"
+            line="129"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="RtlHardcoded"
+        message="Consider replacing `android:paddingLeft` with `android:paddingStart=&quot;10dp&quot;` to better support right-to-left layouts"
+        errorLine1="                    android:paddingLeft=&quot;10dp&quot;"
+        errorLine2="                    ~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_enter_job_details.xml"
+            line="157"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="RtlHardcoded"
+        message="Consider replacing `android:paddingLeft` with `android:paddingStart=&quot;10dp&quot;` to better support right-to-left layouts"
+        errorLine1="                    android:paddingLeft=&quot;10dp&quot;"
+        errorLine2="                    ~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_enter_job_details.xml"
+            line="185"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="RtlHardcoded"
+        message="Consider replacing `android:paddingLeft` with `android:paddingStart=&quot;10dp&quot;` to better support right-to-left layouts"
+        errorLine1="                    android:paddingLeft=&quot;10dp&quot;"
+        errorLine2="                    ~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_enter_job_details.xml"
+            line="213"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="RtlHardcoded"
+        message="Consider replacing `android:paddingLeft` with `android:paddingStart=&quot;10dp&quot;` to better support right-to-left layouts"
+        errorLine1="                    android:paddingLeft=&quot;10dp&quot;"
+        errorLine2="                    ~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_enter_job_details.xml"
+            line="241"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="RtlHardcoded"
+        message="Consider replacing `android:paddingLeft` with `android:paddingStart=&quot;10dp&quot;` to better support right-to-left layouts"
+        errorLine1="                    android:paddingLeft=&quot;10dp&quot;"
+        errorLine2="                    ~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_enter_job_details.xml"
+            line="269"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="RtlHardcoded"
+        message="Consider replacing `android:paddingLeft` with `android:paddingStart=&quot;10dp&quot;` to better support right-to-left layouts"
+        errorLine1="                    android:paddingLeft=&quot;10dp&quot;"
+        errorLine2="                    ~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_enter_job_offers.xml"
+            line="50"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="RtlHardcoded"
+        message="Consider replacing `android:paddingLeft` with `android:paddingStart=&quot;10dp&quot;` to better support right-to-left layouts"
+        errorLine1="                    android:paddingLeft=&quot;10dp&quot;"
+        errorLine2="                    ~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_enter_job_offers.xml"
+            line="77"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="RtlHardcoded"
+        message="Consider replacing `android:paddingLeft` with `android:paddingStart=&quot;10dp&quot;` to better support right-to-left layouts"
+        errorLine1="                    android:paddingLeft=&quot;10dp&quot;"
+        errorLine2="                    ~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_enter_job_offers.xml"
+            line="104"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="RtlHardcoded"
+        message="Consider replacing `android:paddingLeft` with `android:paddingStart=&quot;10dp&quot;` to better support right-to-left layouts"
+        errorLine1="                    android:paddingLeft=&quot;10dp&quot;"
+        errorLine2="                    ~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_enter_job_offers.xml"
+            line="131"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="RtlHardcoded"
+        message="Consider replacing `android:paddingLeft` with `android:paddingStart=&quot;10dp&quot;` to better support right-to-left layouts"
+        errorLine1="                    android:paddingLeft=&quot;10dp&quot;"
+        errorLine2="                    ~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_enter_job_offers.xml"
+            line="159"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="RtlHardcoded"
+        message="Consider replacing `android:paddingLeft` with `android:paddingStart=&quot;10dp&quot;` to better support right-to-left layouts"
+        errorLine1="                    android:paddingLeft=&quot;10dp&quot;"
+        errorLine2="                    ~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_enter_job_offers.xml"
+            line="187"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="RtlHardcoded"
+        message="Consider replacing `android:paddingLeft` with `android:paddingStart=&quot;10dp&quot;` to better support right-to-left layouts"
+        errorLine1="                    android:paddingLeft=&quot;10dp&quot;"
+        errorLine2="                    ~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_enter_job_offers.xml"
+            line="215"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="RtlHardcoded"
+        message="Consider replacing `android:paddingLeft` with `android:paddingStart=&quot;10dp&quot;` to better support right-to-left layouts"
+        errorLine1="                    android:paddingLeft=&quot;10dp&quot;"
+        errorLine2="                    ~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_enter_job_offers.xml"
+            line="243"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="RtlHardcoded"
+        message="Consider replacing `android:paddingLeft` with `android:paddingStart=&quot;10dp&quot;` to better support right-to-left layouts"
+        errorLine1="                    android:paddingLeft=&quot;10dp&quot;"
+        errorLine2="                    ~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_enter_job_offers.xml"
+            line="271"
+            column="21"/>
+    </issue>
+
+</issues>
