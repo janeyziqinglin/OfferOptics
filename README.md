@@ -88,19 +88,9 @@ LI: Life Insurance
 
 The app considers user-assigned weights for each factor, allowing George to fine-tune the comparison based on his preferences.
 
-### User Interface Excellence
-
-OfferOptics boasts an intuitive and responsive user interface, ensuring George enjoys a seamless experience throughout.
-
-## Technical Details
-
-For OfferOptics, we assume a single system running the app, eliminating the need for communication or saving data between devices. The app stands as a standalone solution for George's job offer comparison needs.
-
-With OfferOptics, George gains the power to make informed decisions, unearthing the best job offer tailored to his unique preferences and priorities. As he embarks on his post-graduation journey, OfferOptics acts as his trusted companion, guiding him towards a rewarding and fulfilling career path.
-
 ## Getting Started
 
-To get started with OfferOptics, follow the instructions in the [Installation Guide](/path/to/your/installation_guide.md).
+To get started with OfferOptics, follow below instructions in User Manual.
 
 
 # User Manual of Job Offer Comparison App
