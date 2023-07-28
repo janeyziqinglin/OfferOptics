@@ -94,9 +94,12 @@ The app considers user-assigned weights for each factor, allowing George to fine
 
 ## Getting Started
 
-To get started with OfferOptics, follow below instructions in User Manual.
+To get started with OfferOptics, follow below instructions in [User Manual](#user-manual).
 
 
+----------
+
+<a name="user-manual"></a>
 # User Manual of Job Offer Comparison App
 
 This user manual provides a detailed guide on how to use the Job Offer Comparison App.
@@ -105,7 +108,6 @@ This user manual provides a detailed guide on how to use the Job Offer Compariso
 ## 1. Main Menu
 
 Upon launching the app, users are presented with the main menu. The main menu provides options for various functionalities:
-<a name="main-menu"></a>
 
 <div style="display: flex;">
     <img src="/images/MainMenu_default.png" alt="Main Menu Default" style="width: 300px;"/>
