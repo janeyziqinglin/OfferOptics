@@ -226,5 +226,5 @@ We welcome contributions from the community. To contribute to OfferOptics, pleas
 
 ## License
 
-OfferOptics is open-source software released under the [MIT License](/path/to/your/LICENSE).
+OfferOptics is open-source software released under the [MIT License](LICENSE).
 
