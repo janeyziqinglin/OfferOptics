@@ -1,0 +1,22 @@
+package edu.gatech.seclass.jobcompare6300
+
+/**
+ * ComparisonWeight class
+ *
+ * This is a class that sets the weight for the job comparison
+ * for Job Offer Comparison App.
+ *
+ * This is the work of Team015 in 2023 Summer Software Development Process Course
+ */
+class ComparisonWeight {
+    var id: Int = 0
+    var yearlySalaryWeight: Int = 1
+    var yearlyBonusWeight: Int = 1
+    var leaveWeight: Int = 1
+    var maternityLeaveWeight: Int = 1
+    var lifeInsuranceWeight: Int = 1
+
+    override fun toString(): String {
+        return "$yearlySalaryWeight,$yearlyBonusWeight,$leaveWeight,$maternityLeaveWeight,$lifeInsuranceWeight"
+    }
+}
