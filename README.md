@@ -102,14 +102,6 @@ With OfferOptics, George gains the power to make informed decisions, unearthing 
 
 To get started with OfferOptics, follow the instructions in the [Installation Guide](/path/to/your/installation_guide.md).
 
-## Contributing
-
-We welcome contributions from the community. To contribute to OfferOptics, please follow the guidelines outlined in the [Contribution Guide](/path/to/your/contribution_guide.md).
-
-## License
-
-OfferOptics is open-source software released under the [MIT License](/path/to/your/LICENSE).
-
 
 # User Manual of Job Offer Comparison App
 
@@ -237,4 +229,12 @@ All weights should be integers from 1 to 10 inclusive.
 ## 5. Compare Job Offers
 
 This section allows users to compare different job offers.
+
+## Contributing
+
+We welcome contributions from the community. To contribute to OfferOptics, please follow the guidelines outlined in the [Contribution Guide](/path/to/your/contribution_guide.md).
+
+## License
+
+OfferOptics is open-source software released under the [MIT License](/path/to/your/LICENSE).
 
