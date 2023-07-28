@@ -220,9 +220,6 @@ All weights should be integers from 1 to 10 inclusive.
 
 This section allows users to compare different job offers.
 
-## Contributing
-
-We welcome contributions from the community. To contribute to OfferOptics, please follow the guidelines outlined in the [Contribution Guide](/path/to/your/contribution_guide.md).
 
 ## License
 
