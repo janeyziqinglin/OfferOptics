@@ -1,4 +1,5 @@
 # OfferOptics: Your Ultimate Job Offer Comparison App
+
 ## Background
 
 Introducing __George P__, a new graduate who is on the hunt for the perfect job opportunity in the US. As George ventures through the labyrinth of job offers, brimming with enticing benefits, diverse locations, and countless considerations beyond mere salary figures, he realizes the need for a game-changing solution to ease this daunting journey. And just when he thought all hope was lost, he stumbled upon OfferOptics, a revolutionary and user-friendly single-user job offer comparison app that promises to be his ultimate career companion.
@@ -8,6 +9,33 @@ Introducing __George P__, a new graduate who is on the hunt for the perfect job 
 </div>
 
 ## Key Features
++------------------------+-------------------------------------------------------------------------------------------------+
+|       Goal Area        |                                            Description                                          |
++------------------------+-------------------------------------------------------------------------------------------------+
+|                        | **Specific**: Learn and master React Native for mobile apps.                                     |
+| **Skill Enhancement**  | **Measurable**: Complete a React Native course and build three apps.                            |
+|                        | **Achievable**: Dedicate 10 hours a week to study.                                               |
+|                        | **Relevant**: Enhancing React Native skills can open mobile development opportunities.            |
+|                        | **Time-bound**: 6 months.                                                                       |
++------------------------+-------------------------------------------------------------------------------------------------+
+|                        | **Specific**: Attend software development conferences or webinars.                                |
+| **Networking**         | **Measurable**: Join at least four events this year and connect with 20 professionals.           |
+|                        | **Achievable**: Set aside time and budget for events.                                           |
+|                        | **Relevant**: Networking can lead to job opportunities.                                          |
+|                        | **Time-bound**: End of the year.                                                                |
++------------------------+-------------------------------------------------------------------------------------------------+
+|                        | **Specific**: Create an online portfolio to showcase projects.                                   |
+| **Portfolio Development| **Measurable**: Include at least five major software projects with feedback.                     |
+|**                      | **Achievable**: Use existing or new projects.                                                    |
+|                        | **Relevant**: A portfolio can demonstrate skills and achievements to employers or clients.       |
+|                        | **Time-bound**: End of next quarter.                                                            |
++------------------------+-------------------------------------------------------------------------------------------------+
+|                        | **Specific**: Achieve AWS Certified Solutions Architect certification.                          |
+| **Certification**      | **Measurable**: Pass the exam with a score of at least 85%.                                     |
+|                        | **Achievable**: Dedicate study time weekly and use online resources.                            |
+|                        | **Relevant**: A certification can enhance job prospects in cloud solutions.                      |
+|                        | **Time-bound**: Within 8 months.                                                                |
++------------------------+-------------------------------------------------------------------------------------------------+
 
 ### Main Menu 
 
